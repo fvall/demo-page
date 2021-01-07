@@ -40,4 +40,4 @@ yarn-error.log*
 /nextjs-blog/.next/
 /nextjs-blog/_site/
 /nextjs-blog/node_modules/
-/nextjs-blog/content/
+# /nextjs-blog/content/
