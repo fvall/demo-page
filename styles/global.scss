@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#__next,
+#__first_component {
+  height: 100%;
+}
+
+@import "variables";
+
+body {
+  background-color: $background-color-1;
+  color: $color-text-light;
+  font-family: $font-body;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+}
+
+a {
+  color: $color-text-light;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: $font-title;
+}
+
+// @import "utils";
+@import "nav";
+@import "title";
+@import "page";
+@import "post";
+@import "blog-home";
