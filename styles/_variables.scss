@@ -88,28 +88,27 @@ $breakpoint-xs: 400px;
 
 @media screen and (max-width: $breakpoint-lg) {
   :root {
-    --font-size-md: calc(#{$base-size} * 1rem);
+    --font-size-md: calc(#{$base-size} * 1.1rem);
   }
 }
 
 @media screen and (max-width: $breakpoint-md) {
   :root {
     --ratio: #{$base-size * 0.95};
-    --font-size-md: calc(#{$base-size * 0.9} * 1.13rem);
+    --font-size-md: calc(#{$base-size} * 1.06rem);
   }
 }
 
 @media screen and (max-width: $breakpoint-sm) {
   :root {
     --ratio: #{$base-size-slow};
-    --font-size-md: calc(#{$base-size * 0.9} * 1.13rem);
   }
 }
 
 @media screen and (max-width: $breakpoint-xs) {
   :root {
     --ratio: #{$base-size-slow * 0.96};
-    --font-size-md: calc(#{$base-size * 0.9 * 0.95} * 1.13rem);
+    --font-size-md: calc(#{$base-size} * 1rem);
   }
 }
 
